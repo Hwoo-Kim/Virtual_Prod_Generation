@@ -1,0 +1,13 @@
+#config
+#==========================================================
+#Rset_1_path: data/canonicalized.smi
+Rset_1_path: 2nd_product/generation_result.json
+#Rset_2_path: data/canonicalized.smi
+Rset_2_path: 1st_product/generation_result.json
+r1_is_sm: False
+r2_is_sm: False
+numb_of_rand_pairs_per_core: 625
+#numb_of_rand_pairs_per_core: 250
+rxn_temp_path: data/syn_temp.json
+dir_name: 4th_product_2_1
+numb_cores: 16
